@@ -1520,7 +1520,8 @@
     padding: 7px 10px;
   }
 
-  .landing .btn-github .btn-github-label {
+  /* Hide the long static CTA text, but keep a compact live star count */
+  .landing .btn-github .btn-github-label:not(.btn-github-count) {
     display: none;
   }
 

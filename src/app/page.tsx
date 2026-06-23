@@ -31,14 +31,6 @@ export default async function HomePage() {
             GitReview
           </a>
 
-          <ul className="nav-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Changelog</a></li>
-          </ul>
-
           <div className="nav-cta">
             <Link href="/login" className="btn-nav">Sign in</Link>
             <Link href="/login" className="btn-nav-primary">Get started free</Link>
